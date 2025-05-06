@@ -1,0 +1,88 @@
+/* Arquivo CadastroPessoa.css */
+
+/* Estilo para o contêiner do formulário */
+.cadastro-pessoa-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-pessoa-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+/* Estilo para a mensagem de erro */
+.cadastro-pessoa-error-message {
+  margin-top: 10px;
+  color: #ff0000;
+  text-align: center;
+}
+
+/* Estilo para os grupos de formulário */
+.cadastro-pessoa-form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo para as etiquetas de formulário */
+
+.cadastro-pessoa-form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left;
+}
+/* Estilo para os campos de entrada */
+.cadastro-pessoa-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilo para o botão de cadastro */
+.cadastro-pessoa-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para o botão de cadastro quando em modo de hover */
+.cadastro-pessoa-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.cadastro-pessoa-form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.cadastro-pessoa-form-group input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+

@@ -1,0 +1,127 @@
+/* CadastroLivro.css */
+
+/* Estilo para o contêiner principal */
+.form-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo para o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Estilo para os rótulos dos campos */
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+  display: block;
+  text-align: left;
+}
+
+/* Estilo para os campos de entrada */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilo específico para o campo de texto da sinopse */
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Estilo para o botão de cadastro */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para o botão quando em modo de hover */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a imagem do livro */
+.form-group img {
+  max-width: 100px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+/* Estilo específico para as imagens do livro */
+.book-image {
+  max-width: 200px;
+  max-height: 300px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Container específico para a imagem */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+}

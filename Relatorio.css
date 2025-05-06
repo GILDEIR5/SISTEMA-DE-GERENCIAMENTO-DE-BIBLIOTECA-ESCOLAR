@@ -1,0 +1,82 @@
+/* Relatorio.css */
+
+/* Estilo para o contêiner principal */
+.relatorio-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+.relatorio-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para os rótulos dos selects */
+.relatorio-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para os selects */
+.relatorio-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para o parágrafo com total de devoluções */
+.relatorio-container p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a tabela */
+.relatorio-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Estilo para os cabeçalhos da tabela */
+.relatorio-container th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilo para as células da tabela */
+.relatorio-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilo para as mensagens de erro */
+.relatorio-container .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo para as mensagens de sucesso */
+.relatorio-container .success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
